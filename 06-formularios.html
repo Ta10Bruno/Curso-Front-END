@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout HTML</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Fale Conosco</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Contato</h1>
+            <p>Preencha os campos abaixo</p>
+
+            <form>
+                <div>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem</label><br>
+                    <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <p>
+                        <label>Quais linguagens você prefere </label>
+                            <input type="radio" name="linguagens"> HTML
+                            <input type="radio" name="linguagens"> CSS
+                            <input type="radio" name="linguagens"> JAVA SCRIPT
+                    </p>
+                    
+
+                </div>
+
+                <div>
+                    <p>
+                        <label>Quais linguagens você sabe?</label>
+                            <input type="checkbox" name="linguagens"> HTML
+                            <input type="checkbox" name="linguagens"> CSS
+                            <input type="checkbox" name="linguagens"> JAVA SCRIPT
+                    </p>
+                    
+
+                </div>
+
+                <div>
+                    <label>Qual a sua cor favorita?</label>
+                    <select>
+                        <option value="azul">Azul</option>
+                        <option value="vermelho">Vermelho</option>
+                        <option value="verde">Verde</option>
+                    </select>
+                </div>
+
+                <div class="enviar">
+                    <input type="submit">
+                </div>
+                
+
+                
+            </form>
+
+            
+        </article>
+    </section>
+    <footer>
+        <p>Desenvolvido por Bruno</p>
+    </footer>
+    
+</body>
+</html>
