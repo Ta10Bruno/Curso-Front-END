@@ -1,0 +1,142 @@
+html{
+    font-size: 62.5;
+}
+body{
+    background-color: #f5f5f5;
+    font-family: "Opens Sans", sans-serif;
+
+}
+
+.main-container{
+    background-color: #fff;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.container{
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #fff;
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #254159;
+}
+
+h1{
+    font-size: 2.4rem;
+    color: #254159;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 2rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 1.8rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size: 1.6rem;
+    color: #254159;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 1.6rem;
+    margin-bottom: 10px;
+    color: #454545;
+}
+
+section{
+    background-color: #fff;
+    display: block;
+    float: left;
+    font-size: 1.5rem; /*equivale a 15px*/
+    padding: 20px;
+    width: 100%;
+
+}
+
+section nav{
+    display: block;
+    float: left;
+    width: 30%;
+
+
+}
+
+section nav ul li{
+    background-color: #efefef;
+    margin: 1px 20px 1px 0px;
+    padding: 10px;
+}
+
+section nav ul li:hover{
+    background-color: #dfdfdf;
+    margin: 1px 20px 1px 0px;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #254159;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #385874;
+}
+
+ol{
+    padding-left: 30px;
+}
+
+ol li{
+    font-family: 'Shadows Into Light', cursive;
+    color: #454545;
+}
+
+section article{
+    display: block;
+    width: 70%;
+    float: left;
+    
+}
+
+footer{
+    
+    background-color: #254159;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 20px;
+
+}
+
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+
+}
+
+footer small{
+    font-size: 80%;
+    display: block;
+
+}
