@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+header{
+    background-color: #0d0126;
+    width: 100%;
+    height: 200px;
+}
+
+.fonte{
+    padding: 60px;
+    text-align: center;
+    color: #F20530;
+}
+
+.navegacao{
+    
+    background-color: black;
+    color: #f20530;
+    width: 30%;
+    float: left;
+}
+
+.navegacao ul li a{
+    color: #f20530;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    
+    
+}
+
+.cont{
+    float: right;
+    background-color: antiquewhite;
+    width: 70%;
+    
+}
+
+.video{
+   text-align: center;
+   
+}
+
+.map{
+    text-align: center;
+}
+
+.map p{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #0d0126;
+    width: 100%;
+    float: left;
+
+}
+
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    color: aliceblue;
+}
+
+/*Tablet*/
+
+@media(max-width:1200px){
+    .navegacao{
+        list-style: none;
+        background-color: black;
+        color: #f20530;
+        width: 100%;
+        display: inline;
+        height: 80px;
+        padding-top: 25px;
+    }
+
+
+    .navegacao ul li{
+        display: inline;
+        
+        
+    }
+
+    .navegacao ul li a{
+        display: inline;
+        padding: 20px;
+        
+        
+    }
+    .cont{
+        float: right;
+        background-color: antiquewhite;
+        width: 100%;
+        
+    }
+
+    iframe{
+        width: 500px;
+        height: 500px;
+    }
+
+    .video p{
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+
+
+
+
+/*Mobile Firt*/
+@media(max-width:425px){
+    .navegacao{
+        list-style: none;
+        background-color: black;
+        color: #f20530;
+        width: 100%;
+        display: inline;
+        height: 80px;
+        padding-top: 25px;
+    }
+
+    .navegacao ul li{
+        text-align: center;
+        display: inline;
+        
+        
+    }
+
+    .navegacao ul li a{
+        display: inline;
+        padding: 20px;
+        
+        
+    }
+    .cont{
+        float: right;
+        background-color: antiquewhite;
+        width: 100%;
+        
+    }
+
+    iframe{
+        width: 300px;
+        height: 300px;
+    }
+
+    .video p{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+
+}
+
+
+
+

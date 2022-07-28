@@ -1,0 +1,42 @@
+.card{
+    width: 32%;
+    float: left;
+    margin: 5px;
+    color: aliceblue;
+    
+}
+
+section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+/*Header*/
+header{
+    padding: 20px;
+}
+header h1{
+    color: aliceblue;
+}
+
+footer{
+    padding: 40px;
+    text-align: center;
+}
+
+footer h4{
+    color: aliceblue;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sobre img{
+    border-radius: 10px;
+}
