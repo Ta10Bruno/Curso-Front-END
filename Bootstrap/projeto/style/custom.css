@@ -6,6 +6,10 @@
     
 }
 
+.cartoes{
+    display: flex;
+}
+
 section{
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -16,11 +20,23 @@ input{
 }
 
 /*Header*/
-header{
-    padding: 20px;
+.header{
+    display: flex;
+    justify-content: space-between;
 }
+
 header h1{
     color: aliceblue;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+#sobre a {
+    margin-bottom: 40px;
 }
 
 footer{
